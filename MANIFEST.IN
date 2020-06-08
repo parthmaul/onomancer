@@ -1,0 +1,2 @@
+include onomancer/data/gender_lookup.json
+include onomancer/data/model.bin

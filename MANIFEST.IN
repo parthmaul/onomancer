@@ -1,2 +1,4 @@
-include onomancer/data/gender_lookup.json
 include onomancer/data/model.bin
+include onomancer/data/F.txt
+include onomancer/data/M.txt
+include onomancer/data/N.txt

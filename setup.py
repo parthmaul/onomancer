@@ -20,7 +20,7 @@ with open(PACKAGE_DIR / 'VERSION') as f:
     about['__version__'] = _version
 
 setuptools.setup(
-    name="onomancer-parthmaul",
+    name="onomancer",
     version=about['__version__'],
     author="Parth Jalundhwala",
     author_email="pjalundh@gmail.com",
@@ -30,7 +30,7 @@ setuptools.setup(
     url="https://github.com/parthmaul/onomancer",
     packages=setuptools.find_packages(),
     install_requires=list_reqs(),
-    package_data={'onomancer': ['data/*.json', 'data/*.bin']},
+    package_data={'onomancer': ['data/*.txt', 'data/*.bin']},
     include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -38,5 +38,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    keywords=["gender", "predict","names"],
+    keywords=["gender", "predict","names","model","nlp"],
 )
